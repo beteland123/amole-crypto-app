@@ -1,0 +1,15 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 4px;
+  }
+  .App-logo{
+    max-width: 1.5em;
+  }
+  .icon{
+    display: flex;
+    gap: 1.5em;
+  }
+  
