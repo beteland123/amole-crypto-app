@@ -18,6 +18,12 @@ function CoinDetail() {
           </tr>
           <tr>
             <td>
+              <span>Name:</span>
+              <span>{detailCoin.name}</span>
+            </td>
+          </tr>
+          <tr>
+            <td>
               <span>Symbol:</span>
               <span>{detailCoin.symbol}</span>
             </td>
