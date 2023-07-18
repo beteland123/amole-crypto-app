@@ -16,6 +16,7 @@ export const fetchcoins = createAsyncThunk('coins/fetchcoins', async () => {
     return error.message;
   }
 });
+
 const coinSlice = createSlice({
   name: 'coins',
   initialState,
@@ -31,6 +32,16 @@ const coinSlice = createSlice({
           id: coin.id,
           name: coin.name,
           img: coin.icon,
+          symbol: coin.symbol,
+          price: coin.price,
+          volume: coin.volume,
+          marketCap: coin.marketCap,
+          availableSupply: coin.availableSupply,
+          totalSupply: coin.totalSupply,
+          priceChange1h: coin.priceChange1h,
+          priceChange1d: coin.priceChange1d,
+          priceChange1w: coin.priceChange1w,
+          websiteUrl: coin.websiteUrl,
         };
         state.coins.push(newCoin);
       });
