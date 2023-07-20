@@ -7,7 +7,7 @@ import '../style/nav.css';
 
 function NAVBAR() {
   return (
-    <nav className="navbar">
+    <nav className="navbar lato">
       <li>
         <NavLink to="/">
           <img src={back} className="App-logo" alt="back" />
