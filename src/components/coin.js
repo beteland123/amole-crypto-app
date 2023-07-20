@@ -12,48 +12,52 @@ function Coin() {
   }, [dispatch]);
 
   return (
-    <div className="parent" data-testid="coin-component">
-      <div className="column">
-        {coins.filter((_, index) => index % 2 === 0).map((coin) => (
-          <div key={coin.id} className="child">
-            <Link to={`/coin/${coin.id}`}>
-              <h2>{coin.name}</h2>
-              <img src={coin.img} alt={coin.name} />
-              <span>
-                symbol :
-                {' '}
-                {coin.symbol}
-              </span>
-              <span>
-                price :
-                {' '}
-                {coin.price}
-              </span>
-            </Link>
-          </div>
-        ))}
-      </div>
-      <div className="column">
-        {coins.filter((_, index) => index % 2 !== 0).map((coin) => (
-          <div key={coin.id} className="child">
-            <Link to={`/coin/${coin.id}`}>
-              <h2>{coin.name}</h2>
-              <img src={coin.img} alt={coin.name} />
-              <span>
-                symbol :
-                {' '}
-                {coin.symbol}
-              </span>
-              <span>
-                price :
-                {' '}
-                {coin.price}
-              </span>
-            </Link>
-          </div>
-        ))}
+    <div className="coins-cointainer">
+      <h2 className="heading"> All crypto coins</h2>
+      <div className="parent" data-testid="coin-component">
+        <div className="column">
+          {coins.filter((_, index) => index % 2 === 0).map((coin) => (
+            <div key={coin.id} className="child">
+              <Link to={`/coin/${coin.id}`}>
+                <h2>{coin.name}</h2>
+                <img src={coin.img} alt={coin.name} />
+                <span>
+                  symbol :
+                  {' '}
+                  {coin.symbol}
+                </span>
+                <span>
+                  price :
+                  {' '}
+                  {coin.price}
+                </span>
+              </Link>
+            </div>
+          ))}
+        </div>
+        <div className="column">
+          {coins.filter((_, index) => index % 2 !== 0).map((coin) => (
+            <div key={coin.id} className="child">
+              <Link to={`/coin/${coin.id}`}>
+                <h2>{coin.name}</h2>
+                <img src={coin.img} alt={coin.name} />
+                <span>
+                  symbol :
+                  {' '}
+                  {coin.symbol}
+                </span>
+                <span>
+                  price :
+                  {' '}
+                  {coin.price}
+                </span>
+              </Link>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
+
   );
 }
 

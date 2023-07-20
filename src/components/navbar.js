@@ -12,9 +12,9 @@ function NAVBAR() {
         <NavLink to="/">
           <img src={back} className="App-logo" alt="back" />
         </NavLink>
+        <NavLink to="/id" />
       </li>
-      <li><NavLink to="/id" /></li>
-      <li><h1 className="title">coins</h1></li>
+      <li><h1 className="title">COIN STATS</h1></li>
       <li className="icon">
         <img src={micro} className="App-logo" alt="micro" />
         <img src={gear} className="App-logo" alt="gear" />
