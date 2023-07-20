@@ -11,21 +11,24 @@
 .child {
   border: 1px solid black;
   color: white;
-
 }
-.coins-cointainer{
+
+.coins-cointainer {
   max-width: 98%;
   padding: 2%;
 }
-a{
+
+a {
   text-decoration: none;
   color: white;
 }
-.heading{
+
+.heading {
   color: white;
 }
+
 .child.even {
-  background-color:rgb(56, 86, 141);
+  background-color: rgb(56, 86, 141);
 }
 
 .child.odd {
@@ -33,40 +36,47 @@ a{
 }
 
 .child.column-even {
-  color:rgb(56, 86, 141);
+  color: rgb(56, 86, 141);
 }
 
 .child.column-odd {
-  color:rgb(10, 10, 158);
+  color: rgb(10, 10, 158);
 }
-.child a{
+
+.child a {
   padding: 1%;
   display: flex;
   justify-content: space-between;
 }
-a img{
+
+a img {
   width: 4rem;
   height: auto;
 }
-.span,.first-row{
+
+.span,
+.first-row {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: space-between;
   max-width: 50%;
 }
-.price{
+
+.price {
   font-size: 1rem;
   line-height: 1rem;
+}
 
-}
-.symbol{
+.symbol {
   padding-left: 1rem;
-    padding-right: 1rem;
+  padding-right: 1rem;
 }
+
 .search {
   width: 98%;
 }
+
 .search input {
   border-radius: 0.8rem;
   height: 3rem;
