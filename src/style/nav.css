@@ -3,7 +3,9 @@ nav {
   justify-content: space-between;
   text-align: center;
   align-items: center;
-  padding: 4px;
+  padding: 1%;
+  opacity: 74%;
+  background-color: rgb(64 100 166);
 }
 
 .App-logo {
