@@ -1,70 +1,167 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
+  
+<div align="center">
+  <br/>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h1><b>Amole Crypto APP</b></h1>
 
-## Available Scripts
+  <br/>
+</div>
 
-In the project directory, you can run:
+<!-- TABLE OF CONTENTS -->
+# 📗 Table of Contents
 
-### `npm start`
+- [📗 Table of Contents](#table-of-contents)
+- [📖 Description](#description)
+- [⭐️Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+- [🛠 Technologies Used](#technologies-used)
+- [🚀 Live Demo ](#-live-demo-)
+- [👥 Authors ](#-authors-)
+- [:telescope: Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support ](#️-show-your-support-)
+- [🙏 Acknowledgments ](#-acknowledgments-)
+- [📝 License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- DESCRIPTION -->
+## 📖 Description <a name="description"></a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Amole Crypto App is an application that empowers users to retrieve data from the Coin Stat API. It provides a comprehensive view of all available cryptocurrencies, detailed information about each coin, and a search function to verify the existence of a specific coin within the API.
 
-### `npm test`
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<!-- FEATURES -->
+### ⭐️ Key Features <a name="key-features"></a>
 
-### `npm run build`
+- Comprehensive Coin View: The app provides a holistic view of all available cryptocurrencies, allowing users to stay updated with the entire crypto market.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Detailed Coin Information: For each cryptocurrency, the app provides detailed information, including current price, market cap, volume,  and more. This helps users make informed decisions about their crypto investments.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Search Functionality: The app includes a search function that allows users to quickly find and verify the existence of a specific coin within the API. This feature saves time and enhances the user experience.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- User-Friendly Interface: The app is designed with a user-friendly interface, making it easy for both beginners and experienced crypto enthusiasts to navigate and understand the crypto market.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!-- GETTING STARTED -->
+## 💻 Getting Started <a name="getting-started"></a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To get a local copy of the project up and running, follow these steps:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Prerequisites
+Ensure that you have Node.js installed on your machine.
 
-## Learn More
+### Installation
+Clone the repository to your local machine and navigate to the project directory.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```shell
+git clone   https://github.com/beteland123/amole-crypto-app.git
+cd  amole-crypto-app
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Dependencies
+Install the necessary dependencies using npm.
 
-### Code Splitting
+```shell
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Development
+Start the development server and open the website in your browser.
 
-### Analyzing the Bundle Size
+```shell
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Production
+Build the optimized production-ready bundle.
 
-### Making a Progressive Web App
+```shell
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Advanced Configuration
+<!-- TECHNOLOGIES USED -->
+## 🛠 Technologies Used <a name="technologies-used"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- React: JavaScript library for building user interfaces.
+- HTML: Markup language for creating the structure of web pages.
+- CSS: Styling language for designing the visual presentation of web pages.
+- JavaScript: A programming language for implementing interactive functionality.
+- Jest: For tasting the application
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Deployment
+## 🚀 Live Demo <a name="live-demo"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+> You can see the Live Demo [here.](https://flourishing-paletas-de863e.netlify.app/)
 
-### `npm run build` fails to minify
+> You can see the Video decription [here.](https://www.loom.com/share/4f0bb1c757df4aef84c5386db4c0eca5?sid=b368c12b-25fb-4091-81d4-e95295e82e75)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+## 👥 Authors <a name="authors"></a>
+
+### 👤 **Betel Andarge**  
+
+  - GitHub: [@Betel](https://github.com/beteland123)
+
+  - Twitter: [@Betel](https://twitter.com/BetelAndarge)
+
+  - LinkedIn: [Betel](https://linkedin.com/in/betelandarge)
+
+  _Feel free to reach out to us if you have any questions or collaboration opportunities!_
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## :telescope: Future Features <a name="future-features"></a>
+
+
+- [ ] Add functionality for voice search
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions are welcome! If you have any ideas, improvements, or bug fixes, please open an issue or submit a pull request. For major changes, please discuss them with the project maintainers first.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+ 
+If you like this project, please give a ⭐️ (Thank you)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+
+- I would like to thank Microverse for this learning opportunity.
+
+- [Microverse team](https://microverse.org/)
+
+-  The Crypto-Pro template was created by Nelson Sakwa and is used under the CC BY-NC 4.0 (https://creativecommons.org/licenses/by-nc/4.0/). Changes have been made to the original template.
+
+Original Template: https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- LICENSE -->
+## 📝 License <a name="license"></a>
+
+This project is [MIT licensed](LICENSE).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
