@@ -3,7 +3,7 @@
 exports[`test navabar it should match the snapshoot 1`] = `
 <div>
   <nav
-    class="navbar"
+    class="navbar lato"
   >
     <li>
       <a

@@ -11,12 +11,14 @@ function CoinDetail() {
   return (
     <div data-testid="coin-detail-component">
       <table>
-        <tbody>
-          <tr>
-            <td className="tdimg">
+        <thead>
+          <tr className="tdimg">
+            <th>
               <img src={detailCoin.img} alt={detailCoin.name} />
-            </td>
+            </th>
           </tr>
+        </thead>
+        <tbody>
           <tr className="rows">
             <td className="lists">
               <span>Name:</span>
