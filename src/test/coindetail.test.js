@@ -44,14 +44,15 @@ describe('CoinDetail', () => {
 
     expect(getByText('Bitcoin')).toBeInTheDocument();
     expect(getByText('BTC')).toBeInTheDocument();
-    expect(getByText('29926.533690045835')).toBeInTheDocument();
-    expect(getByText('33553053694.82069')).toBeInTheDocument();
-    expect(getByText('581583816449.8502')).toBeInTheDocument();
-    expect(getByText('19433718')).toBeInTheDocument();
-    expect(getByText('21000000')).toBeInTheDocument();
-    expect(getByText('-0.28')).toBeInTheDocument();
-    expect(getByText('0.39')).toBeInTheDocument();
-    expect(getByText('-2.56')).toBeInTheDocument();
+    expect(getByText(new RegExp('^\\$29926.533690045835$'))).toBeInTheDocument();
+    expect(getByText(new RegExp('^\\$33553053694.82069$'))).toBeInTheDocument();
+    expect(getByText(new RegExp('^\\$581583816449.8502$'))).toBeInTheDocument();
+    expect(getByText(new RegExp('^\\$19433718$'))).toBeInTheDocument();
+    expect(getByText(new RegExp('^\\$21000000$'))).toBeInTheDocument();
+    expect(getByText(new RegExp('^\\$-0.28$'))).toBeInTheDocument();
+    expect(getByText(new RegExp('^\\$0.39$'))).toBeInTheDocument();
+    expect(getByText(new RegExp('^\\$-2.56$'))).toBeInTheDocument();
+
     expect(getByText('http://www.bitcoin.org')).toBeInTheDocument();
   });
 });

@@ -1,0 +1,39 @@
+table {
+  justify-content: center;
+  display: flex;
+  padding: 6%;
+  flex-direction: column;
+}
+
+tbody {
+  display: flex;
+  flex-direction: column;
+}
+
+.lists {
+  display: flex;
+  justify-content: space-between;
+}
+
+tr {
+  color: white;
+  padding-left: 2em;
+  margin-right: 1em;
+  margin-left: 1em;
+  padding-right: 2em;
+  font-family: 'Lato', sans-serif;
+}
+
+.tdimg {
+  justify-content: center;
+  display: flex;
+  margin-bottom: 1em;
+}
+
+.rows {
+  border: 1px solid black;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: rgb(10, 10, 158);
+}

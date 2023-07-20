@@ -3,7 +3,7 @@
 exports[`test navabar it should match the snapshoot 1`] = `
 <div>
   <nav
-    class="navbar"
+    class="navbar lato"
   >
     <li>
       <a
@@ -16,8 +16,6 @@ exports[`test navabar it should match the snapshoot 1`] = `
           src="back.png"
         />
       </a>
-    </li>
-    <li>
       <a
         class=""
         href="/id"
@@ -27,7 +25,7 @@ exports[`test navabar it should match the snapshoot 1`] = `
       <h1
         class="title"
       >
-        coins
+        COIN STATS
       </h1>
     </li>
     <li
