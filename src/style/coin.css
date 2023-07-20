@@ -64,3 +64,11 @@ a img{
   padding-left: 1rem;
     padding-right: 1rem;
 }
+.search {
+  width: 98%;
+}
+.search input {
+  border-radius: 0.8rem;
+  height: 3rem;
+  width: 100%;
+}
