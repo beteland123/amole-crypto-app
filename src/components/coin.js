@@ -12,7 +12,7 @@ function Coin() {
   }, [dispatch]);
 
   return (
-    <div className="parent">
+    <div className="parent" data-testid="coin-component">
       <div className="column">
         {coins.filter((_, index) => index % 2 === 0).map((coin) => (
           <div key={coin.id} className="child">
