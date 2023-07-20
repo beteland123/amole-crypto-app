@@ -8,7 +8,7 @@ function CoinDetail() {
   const detailCoin = coins.find((coin) => coin.id === id);
 
   return (
-    <div>
+    <div data-testid="coin-detail-component">
       <table>
         <tbody>
           <tr>

@@ -13,7 +13,7 @@ export const fetchcoins = createAsyncThunk('coins/fetchcoins', async () => {
     const coins = await response.json();
     return coins.coins;
   } catch (error) {
-    return error.message;
+    throw new Error('Failed to fetch coins');
   }
 });
 
@@ -24,6 +24,7 @@ const coinSlice = createSlice({
   extraReducers: (builder) => {
     builder.addCase(fetchcoins.pending, (state) => {
       state.isloading = true;
+      state.error = '';
     });
     builder.addCase(fetchcoins.fulfilled, (state, action) => {
       state.isloading = false;
