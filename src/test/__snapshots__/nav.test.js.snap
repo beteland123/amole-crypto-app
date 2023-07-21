@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test navabar it should match the snapshoot 1`] = `
+<div>
+  <nav
+    class="navbar lato"
+  >
+    <li>
+      <a
+        class=""
+        href="/"
+      >
+        <img
+          alt="back"
+          class="App-logo"
+          src="back.png"
+        />
+      </a>
+      <a
+        class=""
+        href="/id"
+      />
+    </li>
+    <li>
+      <h1
+        class="title"
+      >
+        COIN STATS
+      </h1>
+    </li>
+    <li
+      class="icon"
+    >
+      <img
+        alt="micro"
+        class="App-logo"
+        src="microphone.png"
+      />
+      <img
+        alt="gear"
+        class="App-logo"
+        src="gear.png"
+      />
+    </li>
+  </nav>
+</div>
+`;
