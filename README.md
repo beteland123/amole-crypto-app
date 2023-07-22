@@ -3,7 +3,7 @@
 <div align="center">
   <br/>
 
-  <h1><b>Amole Crypto APP</b></h1>
+  <h1><b>Amole Crypto App</b></h1>
 
   <br/>
 </div>
